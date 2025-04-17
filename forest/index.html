@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Forest Adventure</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-image: url('https://media.istockphoto.com/id/532523359/photo/spooky-dark-forest-at-night-in-moonlight.jpg?s=612x612&w=0&k=20&c=l6IySCb5p5oqnlTNoTJnclwPWdk7N213UZQc84wALSw=');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      color: #fff;
+      padding: 20px;
+    }
+
+    header {
+      /*background-color: rgba(0, 0, 0, 0.7);*/
+      padding: 40px 20px;
+      border-radius: 20px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+
+    .content {
+     /* background-color: rgba(0, 0, 0, 0.6);*/
+      padding: 30px;
+      border-radius: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .content p {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+
+    .content ul {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 20px;
+    }
+
+    .content ul li {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin: 20px 0 10px;
+    }
+
+    .feature-image {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      border-radius: 15px;
+      margin-bottom: 10px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.6);
+      transition: transform 0.3s ease;
+    }
+
+    .feature-image:hover {
+      transform: scale(1.03);
+    }
+
+    .back-button {
+      display: inline-block;
+      margin-top: 30px;
+      text-decoration: none;
+      padding: 15px 30px;
+      background-color: #2ecc71;
+      color: white;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      transition: background 0.3s, transform 0.3s;
+    }
+
+    .back-button:hover {
+      background-color: #27ae60;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Forest Adventure</h1>
+    <p>Explore the lush greenery and thrilling mysteries of the world's forests.</p>
+  </header>
+
+  <section class="content">
+    <img src="https://media.istockphoto.com/id/935746242/photo/mata-atlantica-atlantic-forest-in-brazil.jpg?s=612x612&w=0&k=20&c=NqE6m2Q8J2w6M7x7Pi8VxnMzLzq-HJQvCt5EMuvMU5o=" alt="Beautiful Forest" class="feature-image">
+    <p>Forests are filled with wonders — from hidden trails and ancient trees to rare wildlife that roam beneath the canopy. Step into the wild and feel your heart race with every new discovery.</p>
+    <p>Top forest adventures:</p>
+    <ul>
+      <li>Amazon Rainforest</li>
+      <img src="https://www.usnews.com/object/image/0000015e-38b8-d369-a3de-3efd04fe0000/170831-amazon-editorial.jpg?update-time=1504190214911&size=responsive640" alt="Amazon Rainforest" class="feature-image">
+      
+      <li>Black Forest, Germany</li>
+      <img src="https://i0.wp.com/usrepresented.com/wp-content/uploads/2022/08/black-forest-landscape-1.jpg?fit=1024%2C683&ssl=1" alt="Black Forest" class="feature-image">
+      
+      <li>Redwood National Park, USA</li>
+      <img src="https://cdn.aarp.net/content/dam/aarpe/en/home/travel/vacation-ideas/outdoors/info-2022/redwood-national-and-state-park/_jcr_content/root/container_main/container_body_main/container_travel_main_body/container_travel_body/container_body2/container_body_cf/body_two_cf_one/par1/articlecontentfragme/cfimage.coreimg.50.932.jpeg/content/dam/aarp/travel/national-parks/2022/10/1140-hiker-at-redwood-national-park.jpg" alt="Redwood National Park" class="feature-image">
+      
+      <li>Sundarbans, India & Bangladesh</li>
+      <img src="https://dailyasianage.com/library/1582060099_9.jpg" alt="Sundarbans" class="feature-image">
+    </ul>
+
+    <a href="index.html" class="back-button">← Back to Home</a>
+  </section>
+</body>
+</html>
